@@ -1,3 +1,9 @@
+---
+
+title: ERAD Região Sul
+
+---
+
 # O Evento
 
 A **Escola Regional de Alto Desempenho da Região Sul**, é um evento regional que tem por objetivo qualificar profissionais da região nas áreas que compõem o Processamento de Alto Desempenho e Distribuído. Para tanto a ERAD provê um fórum regular onde possam ser apresentados avanços recentes nessas áreas e discutidas as formas de ensino de processamento de alto desempenho e distribuído nas universidades dos estados de **Paraná, Rio Grande do Sul e Santa Catarina**[.](http://amplus.ufpel.edu.br/erad/doku.php?id=start&do=login)
