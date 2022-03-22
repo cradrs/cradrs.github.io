@@ -1,0 +1,26 @@
+.sobre {
+  padding: 1rem 3rem;
+}
+
+@media (min-width: 1200px) {
+  /*.coluna-esq {
+    border-right-style: solid;
+    border-color: rgb(143 188 143);
+    padding-right: 2rem;
+  }*/
+  .coluna-dir {
+    padding-left: 2rem;
+  }
+}
+
+.colunas {
+  padding: 1rem 3rem;
+}
+
+a {
+  color: black;
+}
+
+.fa-solid {
+  color: rgb(143 188 143);
+}

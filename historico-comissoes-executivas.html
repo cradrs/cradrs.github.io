@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% include navbar.html %}
+
+<div class="pb-1 container col-sm-12 col-lg-9 text-justify bg-light">
+  <section class="historico-ce">
+    <h4 class="text-center">Comissões Executivas da CRAD/RS</h4>
+    <div class="container">
+      <p class="lead font-italic">Nominatas em ordem alfabética:</p>
+      {% for nominata in site.data.historico-ce.nominatas %}
+        <p><strong>Período: {{ nominata.periodo }}</strong></p>
+         <ul>
+          {% for membro in nominata.membros %}
+            <li>{{ membro.nome }}</li>
+          {% endfor %}
+         </ul>
+      {% endfor %}
+    </div>
+  </section>
+</div>

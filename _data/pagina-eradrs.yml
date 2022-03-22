@@ -1,0 +1,156 @@
+sobre: "A Escola Regional de Alto Desempenho da Região Sul, é um evento regional que tem por objetivo qualificar profissionais da região nas áreas que compõem o Processamento de Alto Desempenho e Distribuído. Para tanto a ERAD provê um fórum regular onde possam ser apresentados avanços recentes nessas áreas e discutidas as formas de ensino de processamento de alto desempenho e distribuído nas universidades dos estados de Paraná, Rio Grande do Sul e Santa Catarina. A ERAD Região Sul é promovida anualmente pela CRAD/RS e conta com o apoio da Sociedade Brasileira de Computação."
+
+evento:
+  data: "A vigésima segunda edição da Escola (ERAD Região Sul 2022) ocorrerá em Curitiba, no período de 18 a 20 de abril de 2022. Esta será a primeira edição do evento realizada no estado do Paraná."
+  descricao: "Como nas últimas edições, o evento está sendo proposto e organizado por um conjunto de instituições. Em 2022, a organização está sendo realizada pela UFPR e a UNISINOS. Além destas instituições, a coordenação das atividades da ERAD/RS 2022 contam com a colaboração de professores da UNIOESTE, UTFPR, UFSC, UDESC, UFSM, UNIPAMPA e UFRGS."
+  programacao: "A programação da ERAD/RS 2022 compreenderá minicursos, palestras, um painel que abordará temas relacionados à área com a participação de pesquisadores renomados, uma maratona de programação paralela, fóruns de iniciação científica e de pós-graduação com apresentações de artigos científicos, todos direcionados para a área de Processamento Distribuído e de Alto Desempenho."
+  site: "https://web.inf.ufpr.br/erad2022/"
+
+publico-alvo:
+  p1: "O público alvo da ERAD Região Sul são alunos de graduação, de pós-graduação, os professores e os profissionais da área de Ciência da Computação e áreas técnicas afins."
+  p2: "A ERAD Região Sul, na sua programação, também prevê a realização anual de cursos de introdução às tecnologias empregadas em processamento paralelo, distribuído e de alto desempenho, constituindo deste modo uma oportunidade para quem deseja dar seus primeiros passos na área."
+  p3: "Para o público com maior experiência, de forma sobreposta na programação, são oferecidas atividades de cunho técnico mais avançado."
+
+autores:
+  p1: "As Informações para a formatação (modelos) dos documentos a serem submetidos à ERAD Região Sul, estão disponíveis para downloads nos links das respectivas atividades. Verifique o site do evento."
+  p2: "Por favor, certifique-se que esteja sendo feito uso dos modelos da ERAD Região Sul relativa a submissão (edição corrente do evento)."
+
+edicoes:
+  - nome: "ERAD 2001"
+    local: "Gramado, RS"
+    link: "http://www2.sbc.org.br/erad/2001/index.html"
+    anais: "http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Evento?id=470"
+    capa: "img/capas_erad/capa2001.jpg"
+      
+  - nome: "ERAD 2002"
+    local: "São Leopoldo, RS"
+    link: "http://www2.sbc.org.br/erad/2002/index.html"
+    anais: "http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Evento?id=471"
+    capa: "img/capas_erad/capa2002.jpg"
+
+  - nome: "ERAD 2003"
+    local: "Santa Maria, RS"
+    link: "http://www2.sbc.org.br/erad/2003/index.html"
+    anais: "http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Evento?id=482"
+    capa: "img/capas_erad/capa2003.gif"
+
+  - nome: "ERAD 2004"
+    local: "Pelotas, RS"
+    link: "http://www2.sbc.org.br/erad/2004/index.html"
+    anais: "http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Evento?id=473"
+    capa: "img/capas_erad/capa2004.gif"
+
+  - nome: "ERAD 2005"
+    local: "Canoas, RS"
+    link: "http://www2.sbc.org.br/erad/2005/index.html"
+    anais: "http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Evento?id=474"
+    capa: "img/capas_erad/capa2005.gif"
+
+  - nome: "ERAD 2006"
+    local: "Ijuí, RS"
+    link: "http://www2.sbc.org.br/erad/2006/index.php"
+    anais: "http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Evento?id=475"
+    capa: "img/capas_erad/capa2006.jpg"
+
+  - nome: "ERAD 2007"
+    local: "Porto Alegre, RS"
+    link: "http://www2.sbc.org.br/erad/2007/"
+    anais: "http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Evento?id=476"
+    capa: "img/capas_erad/capa2007.jpg"
+
+  - nome: "ERAD 2008"
+    local: "Santa Cruz do Sul, RS"
+    link: "http://www2.sbc.org.br/erad/2008/"
+    anais: "http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Evento?id=477"
+    capa: "img/capas_erad/capa2008.jpg"
+
+  - nome: "ERAD 2009"
+    local: "Caxias do Sul, RS"
+    link: "http://www2.sbc.org.br/erad/2009/"
+    anais: "http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Evento?id=282"
+    capa: "img/capas_erad/capa2009.jpg"
+
+  - nome: "ERAD 2010"
+    local: "Passo Fundo, RS"
+    link: "http://www2.sbc.org.br/erad/2010/"
+    anais: "http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Evento?id=478"
+    capa: "img/capas_erad/capa2010.jpg"
+
+  - nome: "ERAD 2011"
+    local: "Porto Alegre, RS"
+    link: "http://www2.sbc.org.br/erad/2011/"
+    anais: "http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Evento?id=479"
+    capa: "img/capas_erad/capa2011.jpg"
+
+  - nome: "ERAD 2012"
+    local: "Erechim, RS"
+    link: "http://www2.sbc.org.br/erad/2012/"
+    anais: "http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Evento?id=481"
+    capa: "img/capas_erad/capa2012.jpg"
+
+  - nome: "ERAD 2013"
+    local: "Porto Alegre, RS"
+    link: "http://www.uniritter.edu.br/eventos/erad/2013/"
+    anais: "http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Evento?id=565"
+    capa: "img/capas_erad/capa2013.jpg"
+
+  - nome: "ERAD 2014"
+    local: "Alegrete, RS"
+    link: "http://cc.alegrete.unipampa.edu.br/erad/"
+    anais: "http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Evento?id=721"
+    capa: "img/capas_erad/capa2014.jpg"
+
+  - nome: "ERAD 2015"
+    local: "Gramado, RS"
+    link: "http://erad2015.inf.ufrgs.br/"
+    anais: "http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Evento?id=785"
+    capa: "img/capas_erad/capa2015.jpg"
+
+  - nome: "ERAD 2016"
+    local: "São Leopoldo, RS"
+    link: "http://www.unisinos.br/eventos/erad-rs-2016-exerad"
+    anais: "http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Evento?id=882"
+    capa: "img/capas_erad/capa2016.jpg"
+
+  - nome: "ERAD 2017"
+    local: "Ijuí, RS"
+    link: "http://www.projetos.unijui.edu.br/eradrs2017/"
+    anais: "https://sol.sbc.org.br/index.php/eradrs/issue/view/180"
+    capa: "img/capas_erad/capa2017.jpg"
+
+  - nome: "ERAD 2018"
+    local: "Porto Alegre, RS"
+    link: "http://www.inf.ufrgs.br/erad2018/"
+    anais: "https://sol.sbc.org.br/index.php/eradrs/issue/view/172"
+    capa: "img/capas_erad/capa2018.jpg"
+
+  - nome: "ERAD 2019"
+    local: "Três de Maio, RS"
+    link: "https://www.setrem.com.br/erad2019/"
+    anais: "https://sol.sbc.org.br/index.php/eradrs/issue/view/412"
+    capa: "img/capas_erad/capa2019.jpg"
+
+  - nome: "ERAD 2020"
+    local: "Santa Maria, RS"
+    link: "https://erad2020.inf.ufsm.br/"
+    anais: "https://sol.sbc.org.br/index.php/eradrs/issue/view/564"
+    capa: "img/capas_erad/capa2020.jpg"
+
+  - nome: "ERAD 2021"
+    local: "Joinville, SC"
+    link: "http://labp2d.joinville.udesc.br/erad2021/"
+    anais: "https://sol.sbc.org.br/index.php/eradrs/index"
+    capa: "img/capas_erad/capa2021.jpg"
+
+  - nome: "ERAD 2022"
+    local: "Curitiba, PR"
+    link: "https://web.inf.ufpr.br/erad2022/"
+
+
+#  - nome: ""
+#    local: ""
+#    link: ""
+
+coordenador-comissao-executiva:
+  nome: "Prof. Dr. Tiago Coelho Ferreto (PUCRS)"
+  email: "tiago.ferreto@pucrs.br"

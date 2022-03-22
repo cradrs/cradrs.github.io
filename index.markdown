@@ -1,9 +1,6 @@
 ---
-
-title: CRAD/RS - Comissão Regional de Alto Desempenho da Região Sul
-
+layout: home
 ---
-
 A **Comissão Regional de Alto Desempenho da Região Sul**, **CRAD/RS**, foi criada durante a primeira Escola Regional de Alto Desempenho (ERAD 2001), em janeiro de 2001, com o objetivo principal de criar políticas de fomento à área de processamento distribuído e paralelo. Dentre as diversas atribuições da CRAD/RS, incluem-se o estabelecimento de um fórum de discussões sobre diferentes frentes de estudo e pesquisa referentes ao processamento paralelo e distribuído, seja através da lista de discussões da CRAD/RS, como pela organização das ERADs em regime anual. A CRAD/RS congrega instituições do **Paraná, Rio Grande do Sul e Santa Catarina**[.](http://amplus.ufpel.edu.br/cradrs/doku.php?do=login)
 
 ## Atividades Correntes
@@ -93,3 +90,12 @@ Relação em ordem alfabética de instituição e representante
 | UNIVALI, SC            |      **Valderi R. Q. Leithardt** valderi at univali.br       | **Cesar Albenes Zeferino** zeferino at univali.br            |
 | UPF, RS                |          **Carlos Amaral Holbig** holbig at upf.br           | **Marcelo Trindade Rebonatto** rebonatto at upf.br           |
 | URI (Santo Angelo), RS |         **Carlos Oberdan Rolim** ober at san.uri.br          | —                                                            |
+
+
+
+
+{% for instituicao in site.data.site-text.comissao-deliberativa %}
+            <td class="align-middle">{{ instituicao.nome }}</td>
+            <td class="align-middle"><strong>{{ instituicao.representantes.r1 }}</strong><br>{{ instituicao.representantes.r1.contato1 }}</td>
+            <td class="align-middle"><strong>{{ instituicao.representantes.r2 }}</strong><br>{{ instituicao.representantes.r2.contato2 }}</td>
+          {% endfor %}

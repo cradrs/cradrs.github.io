@@ -1,0 +1,29 @@
+nominatas:
+  - periodo: "2012-2015"
+    membros:
+      - nome: "Prof. Carlos A. Holbig (UPF)"
+      - nome: "<b>Prof. César A. F. De Rose (PUCRS), Coordenador</b>"
+      - nome: "Prof. Benhur Stein (UFSM)"
+      - nome: "Prof. Gerson G. H. Cavalheiro (UFPEL)"
+      - nome: "Prof. Nicolas Maillard (UFRGS)"
+  - periodo: "2015-2018"
+    membros:
+      - nome: "Prof. Andrea Charão (UFSM)"
+      - nome: "Prof. André Du Bois (UFPEL)"
+      - nome: "Prof. Claudio Schepke (UNIPAMPA)"
+      - nome: "<b>Prof. Lucas Mello Schnorr (UFRGS), Coordenador</b>"
+      - nome: "Prof. Rodrigo Righi (UNISINOS)"
+  - periodo: "2018-2021"
+    membros:
+      - nome: "Prof. André Rauber Dubois (UFPEL)"
+      - nome: "<b>Prof. Edson Luiz Padoin (UNIJUI), Coordenador</b>"
+      - nome: "Prof. João Vicente Ferreira Lima (UFSM)"
+      - nome: "Prof. Odorico Machado Mendizabal (UFSC)"
+      - nome: "Prof. Tiago Coelho Ferreto (PUCRS)"
+  - periodo: "2021-2024"
+    membros:
+      - nome: "Prof. André Rauber Dubois (UFPEL)"
+      - nome: "Prof. Edson Luiz Padoin (UNIJUI)"
+      - nome: "Prof. João Vicente Ferreira Lima (UFSM)"
+      - nome: "Prof. Márcio Bastos Castro (UFSC)"
+      - nome: "<b>Prof. Tiago Coelho Ferreto (PUCRS), Coordenador</b>"

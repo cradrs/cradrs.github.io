@@ -1,0 +1,108 @@
+---
+layout: default
+---
+
+{% include navbar.html %}
+
+<div class="pb-1 container col-sm-12 col-lg-9 text-justify bg-light">
+  <!-- Sobre -->
+  <section class="sobre">
+    <p class="lead">{{ site.data.pagina-cradrs.sobre.texto }}</p>
+  </section>
+  <!-- Atividades -->
+  <section class="atividades" id="atividades">
+    <h4 class="text-center">Atividades</h4>
+    <div class="container conteudo-atividades">
+      <ul>
+        <li>Apoio à organização da ERAD/RS.</li>
+        <li>Revisão do estatuto da CRAD/RS.
+          <p class="pt-3 lead"><a href="{{ site.data.pagina-cradrs.estatuto.estatuto-atual }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Estatuto da CRAD/RS</a></p>
+          <p class="pt-2 lead">{{ site.data.pagina-cradrs.estatuto.texto }}</p>
+          <p class="lead font-italic">Revisões realizadas:</p>
+          <ul>
+            {% for revisao in site.data.pagina-cradrs.estatuto.revisoes %}
+              <li class="mb-1" style="list-style-type: none;"><a href="{{ revisao.link }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> {{ revisao.desc }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Institucional -->
+
+  <!-- Membros Honorários -->
+  <section class="membros-honorarios" id="membros-honorarios">
+    <h4 class="text-center">Membros Honorários</h4>
+    <div class="container conteudo-membros-honorarios">
+      <p class="lead font-italic">Nominata em ordem de ano e alfabética:</p>
+      <ul>
+        {% for membro in site.data.pagina-cradrs.membros-honorarios %}
+          <li>{{ membro.nome }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+
+  <!-- Comissão Executiva -->
+  <section class="comissao-executiva" id="comissao-executiva">
+    <h4 class="text-center">Comissão Executiva</h4>
+    <div class="container conteudo-comissao-executiva">
+      <p class="lead font-italic">Nominata da Comissão Executiva em ordem alfabética:</p>
+      <ul>
+        {% for membro in site.data.pagina-cradrs.comissao-executiva %}
+          <li class="mb-1">{{ membro.nome }}</li>
+        {% endfor %}
+      </ul>
+      <p class="lead font-italic">Registro Histórico da Composição das Comissões Executivas:</p>
+      <ul>
+        <li style="list-style-type: none;"><a href="historico-comissoes-executivas.html" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Acesso às nominatas</a></li>
+      </ul>
+    </div>
+  </section>
+  
+  <!-- Comissão Deliberativa -->
+  <section class="comissao-deliberativa" id="comissao-deliberativa">
+    <h4 class="text-center">Comissão Deliberativa</h4>
+    <div class="container conteudo-comissao-deliberativa">
+      <p class="lead font-italic">Relação em ordem alfabética de instituição e representante:</p>
+      <div class="table-responsive">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Instituição</th>
+              <th colspan="2" style="text-align: center;">Representantes</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for instituicao in site.data.pagina-cradrs.comissao-deliberativa %}
+              <tr>
+                <td class="align-middle">{{ instituicao.nome }}</td>
+                {% for representante in instituicao.representantes %}
+                  <td class="align-middle"><strong>{{ representante.nome }}</strong><br>{{ representante.contato }}</td>
+                {% endfor %}
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+  </section>
+
+
+  <!-- Atas -->
+  <section class="atas mb-5" id="atas">
+    <h4 class="text-center">Atas das Assembléias Gerais da CRAD/RS</h4>
+    <div class="container conteudo-atas">
+      <ul>
+        {% for ata in site.data.pagina-cradrs.atas %}
+          <li style="list-style-type: none;"><a id="atas" href="{{ ata.link }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-lines"></i> {{ ata.nome }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+
+</div>
+
+<!-- footer -->

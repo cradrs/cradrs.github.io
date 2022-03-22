@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .logo_cradrs {
+    width: 80%;
+  }
+}
+
+header .jumbotron {
+  background-image: url(/crad-rs/img/server.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: screen;
+  background-color: rgb(143 188 143);
+}
