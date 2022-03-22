@@ -1,5 +1,12 @@
+# Página inicial - _layouts/home.html
+
+## Sobre:
+
 sobre:
   texto: "A Comissão Regional de Alto Desempenho da Região Sul, CRAD/RS, foi criada durante a primeira Escola Regional de Alto Desempenho (ERAD 2001), em janeiro de 2001, com o objetivo principal de criar políticas de fomento à área de processamento distribuído e paralelo. Dentre as diversas atribuições da CRAD/RS, incluem-se o estabelecimento de um fórum de discussões sobre diferentes frentes de estudo e pesquisa referentes ao processamento paralelo e distribuído, seja através da lista de discussões da CRAD/RS, como pela organização das ERADs em regime anual. A CRAD/RS congrega instituições do Paraná, Rio Grande do Sul e Santa Catarina."
+
+
+## Atividades:
 
 estatuto:
   texto: "Conforme deliberado na ERAD 2003, o estatuto da CRAD/RS está em regime permanente de discussão. Sugestões de alteração no texto e outras contribuições devem ser enviadas ao Prof. Adenauer Yamin utilizando o email adenauer at inf.ufpel.edu.br. As alterações serão avaliadas e votadas nas Assembléia da CRAD/RS realizadas anualmente durante as ERADs."
@@ -9,9 +16,14 @@ estatuto:
       link: "docs/revisoes_estatuto/ataassembleia-da-crad-erad2013.pdf"
     - desc: "Assembléia da CRAD/RS, ERAD 2018, 04/04/2018 - Inclusão do Paraná e Santa Catarina como estados membros da CRAD/RS, bem como a troca da denominação para “Comissão Regional de Alto Desempenho da Região Sul”. Eleição da Comissão Executiva 2018-2021."
       link: "docs/revisoes_estatuto/ataassembleia-da-crad-erad2018.pdf"
+#    - desc:
+#    - link:
 
 ERAD:
   texto: "A Escola Regional de Alto Desempenho da Região Sul é um evento regional que tem por objetivo qualificar profissionais da região nas áreas que compõem o Processamento de Alto Desempenho e Distribuído. Para tanto a ERAD provê um fórum regular onde possam ser apresentados avanços recentes nessas áreas e discutidas as formas de ensino de processamento de alto desempenho e distribuído nas universidades dos estados de Paraná, Rio Grande do Sul e Santa Catarina."
+
+
+## Institucional:
 
 membros-honorarios:
   - nome: "Prof. Tiaraju Asmuz Diverio (UFRGS), título outorgado em <b>19/10/2012</b>, em assembléia da CRAD/RS no WSCAD-SSC 2012, em Petrópolis, RJ."
@@ -26,7 +38,6 @@ comissao-executiva:
   - nome: "<b>Prof. Tiago Coelho Ferreto (PUCRS), Coordenador</b>"
 
 comissao-deliberativa:
-
   - instituicao:
     nome: "CESUP, RS"
     representantes:
@@ -34,7 +45,6 @@ comissao-deliberativa:
         contato: "super at cesup.ufrgs.br"
       - nome: "Magali Longhi"
         contato: "magali at cesup.ufrgs.br"
-
   - instituicao:
     nome: "EMBRAPA (ETB), RS"
     representantes:
@@ -42,7 +52,6 @@ comissao-deliberativa:
         contato: "nelsi.warken at embrapa.br"
       - nome: "-"
         contato: ""
-
   - instituicao:
     nome: "Feevale, RS"
     representantes:
@@ -50,7 +59,6 @@ comissao-deliberativa:
         contato: "edvar at feevale.br "
       - nome: "-"
         contato: ""
-
   - instituicao:
     nome: "FURG, RS"
     representantes:
@@ -58,7 +66,6 @@ comissao-deliberativa:
         contato: "pbmarcos at furg.br"
       - nome: "-"
         contato: ""
-
   - instituicao:
     nome: "IFSul, RS "
     representantes:
@@ -66,7 +73,6 @@ comissao-deliberativa:
         contato: "joaolopes at cavg.ifsul.edu.br"
       - nome: "Rodrigo Santos de Souza"
         contato: "rodrigosouza at pelotas.ifsul.edu.br"  
-
   - instituicao:
     nome: "PUCRS, RS "
     representantes:
@@ -74,7 +80,6 @@ comissao-deliberativa:
         contato: "luiz.fernandes at pucrs.br"
       - nome: "Tiago C. Ferreto"
         contato: "tiago.ferreto at pucrs.br"  
-
   - instituicao:
     nome: "SENAC (Pelotas), RS "
     representantes:
@@ -82,7 +87,6 @@ comissao-deliberativa:
         contato: "cvalves at senacrs.edu.br"
       - nome: "Angelo Gonçalves Luz"
         contato: "agluz at senacrs.edu.br"  
-        
   - instituicao:
     nome: "SETREM, RS"
     representantes:
@@ -90,7 +94,6 @@ comissao-deliberativa:
         contato: "dalvangriebler at setrem.com.br"
       - nome: "Fauzi de Moraes Shubeita"
         contato: "fauzi at setrem.com.br"  
-
   - instituicao:
     nome: "UCPEL"
     representantes:
@@ -98,7 +101,6 @@ comissao-deliberativa:
         contato: "adenauer.yamin at ucpel.edu.br"
       - nome: "Cláudio Machado Diniz"
         contato: "claudio.diniz at ucpel.edu.br"  
-
   - instituicao:
     nome: "UCS, RS"
     representantes:
@@ -106,7 +108,6 @@ comissao-deliberativa:
         contato: "almartin at ucs.br"
       - nome: "Ricardo Vargas Dorneles"
         contato: "RVDornel at ucs.br"  
-
   - instituicao:
     nome: "UDESC, SC"
     representantes:
@@ -114,7 +115,6 @@ comissao-deliberativa:
         contato: "mauricio.pillon at udesc.br"
       - nome: "Guilherme Piêgas Koslovski"
         contato: "guilherme.koslovski at udesc.br"  
-
   - instituicao:
     nome: "UFPEL, RS"
     representantes:
@@ -122,7 +122,6 @@ comissao-deliberativa:
         contato: "dubois at inf.ufpel.edu.br"
       - nome: "Gerson G. H. Cavalheiro"
         contato: "gerson.cavalheiro at inf.ufpel.edu.br"  
-        
   - instituicao:
     nome: "UFPR, PR"
     representantes:
@@ -130,7 +129,6 @@ comissao-deliberativa:
         contato: "mazalves at inf.ufpr.br"
       - nome: "Daniel Weingaertner"
         contato: "danielw at inf.ufpr.br"  
-
   - instituicao:
     nome: "UFRGS, RS"
     representantes:
@@ -138,7 +136,6 @@ comissao-deliberativa:
         contato: "asc at inf.ufrgs.br"
       - nome: "Philippe O. A. Navaux"
         contato: "navaux at inf.ufrgs.br"  
-
   - instituicao:
     nome: "UFSC, SC "
     representantes:
@@ -146,7 +143,6 @@ comissao-deliberativa:
         contato: "marcio.castro at ufsc.br"
       - nome: "Odorico Machado Mendizabal"
         contato: "odorico.mendizabal at ufsc.br"  
-        
   - instituicao:
     nome: "UFSM, RS"
     representantes:
@@ -154,7 +150,6 @@ comissao-deliberativa:
         contato: "marcia at inf.ufsm.br"
       - nome: "João V. F. Lima"
         contato: "jvlima at inf.ufsm.br"  
-
   - instituicao:
     nome: "ULBRA, RS"
     representantes:
@@ -162,7 +157,6 @@ comissao-deliberativa:
         contato: ""
       - nome: "-"
         contato: ""  
-
   - instituicao:
     nome: "UNIFRA, RS"
     representantes:
@@ -170,7 +164,6 @@ comissao-deliberativa:
         contato: "apc at unifra.br"
       - nome: "-"
         contato: ""  
-
   - instituicao:
     nome: "UNIJUI, RS"
     representantes:
@@ -178,7 +171,6 @@ comissao-deliberativa:
         contato: "padoin at unijui.edu.br"
       - nome: "-"
         contato: ""  
-
   - instituicao:
     nome: "UNIOESTE, PR"
     representantes:
@@ -186,7 +178,6 @@ comissao-deliberativa:
         contato: "guilherme.galante at unioeste.br"
       - nome: "Luiz Antonio Rodrigues"
         contato: "luiz.rodrigues at unioeste.br"  
-
   - instituicao:
     nome: "UNIPAMPA, RS"
     representantes:
@@ -194,7 +185,6 @@ comissao-deliberativa:
         contato: "schepke at gmail.com"
       - nome: "Leonardo Bidese de Pinho"
         contato: "leonardo.pinho at unipampa.edu.br"  
-        
   - instituicao:
     nome: "UNIRITTER, RS"
     representantes:
@@ -202,7 +192,6 @@ comissao-deliberativa:
         contato: "atila_vasconcelos at uniritter.edu.br"
       - nome: "Mozart Lemos de Siqueira"
         contato: "mozars at uniritter.edu.br"  
-
   - instituicao:
     nome: "UNISC, RS"
     representantes:
@@ -210,7 +199,6 @@ comissao-deliberativa:
         contato: "danielap at unisc.br"
       - nome: "-"
         contato: ""  
-
   - instituicao:
     nome: "UNISINOS, RS"
     representantes:
@@ -218,15 +206,13 @@ comissao-deliberativa:
         contato: "cac at unisinos.br"
       - nome: "Rodrigo da Rosa Righi"
         contato: "rrrighi at unisinos.br"  
-
   - instituicao:
     nome: "UNIVALI, SC"
     representantes:
       - nome: "Valderi R. Q. Leithardt"
         contato: "valderi at univali.br"
       - nome: "Cesar Albenes Zeferino"
-        contato: "zeferino at univali.br"                                                                                                                                                                                  
-  
+        contato: "zeferino at univali.br"  
   - instituicao:
     nome: "UPF, RS"
     representantes:
@@ -234,7 +220,6 @@ comissao-deliberativa:
         contato: "holbig at upf.br"
       - nome: "Marcelo Trindade Rebonatto"
         contato: "rebonatto at upf.br" 
-
   - instituicao:
     nome: "URI (Santo Angelo), RS"
     representantes:
@@ -271,7 +256,11 @@ atas:
     link: "docs/atas/ataassembleia-da-crad-erad2020.pdf"
   - nome: "ERAD 2021 - 15/04/2021"
     link: "docs/atas/ataassembleia-da-crad-erad2021.pdf"
-  
+#  - nome:
+#  - link:
+
+# Informações: _includes/footer.html
+
 informacoes-crad:
   - nome: "Lista de discussão da CRAD/RS"
     link: "https://listas.inf.ufrgs.br/mailman/listinfo/cradrs-l/"
@@ -279,3 +268,5 @@ informacoes-crad:
     link: "http://www2.sbc.org.br/erad/"
   - nome: "Comissão Especial da SBC de Arquitetura de Computadores e Processamento de Alto Desempenho"
     link: "http://sbc.org.br/14-comissoes/380-arquitetura-de-comp-e-proc-de-alto-desempenho"
+#  - nome:
+#  - link:

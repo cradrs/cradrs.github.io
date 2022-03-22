@@ -1,3 +1,7 @@
+# Página ERAD/RS: erad-rs.html
+
+## ERAD Região Sul
+
 sobre: "A Escola Regional de Alto Desempenho da Região Sul, é um evento regional que tem por objetivo qualificar profissionais da região nas áreas que compõem o Processamento de Alto Desempenho e Distribuído. Para tanto a ERAD provê um fórum regular onde possam ser apresentados avanços recentes nessas áreas e discutidas as formas de ensino de processamento de alto desempenho e distribuído nas universidades dos estados de Paraná, Rio Grande do Sul e Santa Catarina. A ERAD Região Sul é promovida anualmente pela CRAD/RS e conta com o apoio da Sociedade Brasileira de Computação."
 
 evento:
@@ -6,14 +10,23 @@ evento:
   programacao: "A programação da ERAD/RS 2022 compreenderá minicursos, palestras, um painel que abordará temas relacionados à área com a participação de pesquisadores renomados, uma maratona de programação paralela, fóruns de iniciação científica e de pós-graduação com apresentações de artigos científicos, todos direcionados para a área de Processamento Distribuído e de Alto Desempenho."
   site: "https://web.inf.ufpr.br/erad2022/"
 
+
+## Público Alvo
+
 publico-alvo:
   p1: "O público alvo da ERAD Região Sul são alunos de graduação, de pós-graduação, os professores e os profissionais da área de Ciência da Computação e áreas técnicas afins."
   p2: "A ERAD Região Sul, na sua programação, também prevê a realização anual de cursos de introdução às tecnologias empregadas em processamento paralelo, distribuído e de alto desempenho, constituindo deste modo uma oportunidade para quem deseja dar seus primeiros passos na área."
   p3: "Para o público com maior experiência, de forma sobreposta na programação, são oferecidas atividades de cunho técnico mais avançado."
 
+
+## Autores
+
 autores:
   p1: "As Informações para a formatação (modelos) dos documentos a serem submetidos à ERAD Região Sul, estão disponíveis para downloads nos links das respectivas atividades. Verifique o site do evento."
   p2: "Por favor, certifique-se que esteja sendo feito uso dos modelos da ERAD Região Sul relativa a submissão (edição corrente do evento)."
+
+
+## Edições e Anais
 
 edicoes:
   - nome: "ERAD 2001"
@@ -146,10 +159,19 @@ edicoes:
     local: "Curitiba, PR"
     link: "https://web.inf.ufpr.br/erad2022/"
 
+# Atualizar informações da edição:
 
-#  - nome: ""
-#    local: ""
-#    link: ""
+#    anais: ""
+#    capa: ""
+
+# Adicionar próxima edição:
+
+#  - nome:
+#    local:
+#    link:
+
+
+## Fale Conosco
 
 coordenador-comissao-executiva:
   nome: "Prof. Dr. Tiago Coelho Ferreto (PUCRS)"
