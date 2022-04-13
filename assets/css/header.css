@@ -5,7 +5,7 @@
 }
 
 header .jumbotron {
-  background-image: url(/cradrs/img/server.jpg);
+  background-image: url(/img/server.jpg);
   background-position: center;
   background-size: cover;
   background-blend-mode: screen;
