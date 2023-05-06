@@ -5,10 +5,10 @@
 sobre: "A Escola Regional de Alto Desempenho da Região Sul, é um evento regional que tem por objetivo qualificar profissionais da região nas áreas que compõem o Processamento de Alto Desempenho e Distribuído. Para tanto a ERAD provê um fórum regular onde possam ser apresentados avanços recentes nessas áreas e discutidas as formas de ensino de processamento de alto desempenho e distribuído nas universidades dos estados de Paraná, Rio Grande do Sul e Santa Catarina. A ERAD Região Sul é promovida anualmente pela CRAD/RS e conta com o apoio da Sociedade Brasileira de Computação."
 
 evento:
-  data: "A vigésima segunda edição da Escola (ERAD Região Sul 2022) ocorrerá em Curitiba, no período de 18 a 20 de abril de 2022. Esta será a primeira edição do evento realizada no estado do Paraná."
-  descricao: "Como nas últimas edições, o evento está sendo proposto e organizado por um conjunto de instituições. Em 2022, a organização está sendo realizada pela UFPR e a UNISINOS. Além destas instituições, a coordenação das atividades da ERAD/RS 2022 contam com a colaboração de professores da UNIOESTE, UTFPR, UFSC, UDESC, UFSM, UNIPAMPA e UFRGS."
-  programacao: "A programação da ERAD/RS 2022 compreenderá minicursos, palestras, um painel que abordará temas relacionados à área com a participação de pesquisadores renomados, uma maratona de programação paralela, fóruns de iniciação científica e de pós-graduação com apresentações de artigos científicos, todos direcionados para a área de Processamento Distribuído e de Alto Desempenho."
-  site: "https://web.inf.ufpr.br/erad2022/"
+  data: "A vigésima terceira edição da Escola (ERAD Região Sul 2023) ocorrerá em Porto Alegre, no período de 10 a 12 de maio de 2023."
+  descricao: "Como nas últimas edições, o evento está sendo proposto e organizado por um conjunto de instituições. Em 2023, a organização está sendo realizada pela PUCRS e a UFSC. Além destas instituições, a coordenação das atividades da ERAD/RS 2022 contam com a colaboração de professores da UFPEL, UNIPAMPA, UFRGS, FURG, UNIOESTE, UNIJUI, UNISINOS e UDESC."
+  programacao: "A programação da ERAD/RS 2023 compreenderá minicursos, palestras, um painel que abordará temas relacionados à área com a participação de pesquisadores renomados, uma maratona de programação paralela, fóruns de iniciação científica e de pós-graduação com apresentações de artigos científicos, todos direcionados para a área de Processamento Distribuído e de Alto Desempenho."
+  site: "https://cradrs.github.io/eradrs2023"
 
 
 ## Público Alvo
@@ -152,12 +152,18 @@ edicoes:
   - nome: "ERAD 2021"
     local: "Joinville, SC"
     link: "http://labp2d.joinville.udesc.br/erad2021/"
-    anais: "https://sol.sbc.org.br/index.php/eradrs/index"
+    anais: "https://sol.sbc.org.br/index.php/eradrs/issue/view/721"
     capa: "img/capas_erad/capa2021.jpg"
 
   - nome: "ERAD 2022"
     local: "Curitiba, PR"
     link: "https://web.inf.ufpr.br/erad2022/"
+    anais: "https://sol.sbc.org.br/index.php/eradrs/issue/view/892"
+    capa: "img/capas_erad/capa2022.jpg"
+    
+  - nome: "ERAD 2023"
+    local: "Porto Alegre, RS"
+    link: "https://cradrs.github.io/eradrs2023"
 
 # Atualizar informações da edição:
 
