@@ -227,6 +227,13 @@ comissao-deliberativa:
         contato: "ober at san.uri.br"
       - nome: "-"
         contato: ""     
+  - instituicao:
+    nome: "UNIOESTE (Cascavel), PR"
+    representantes:
+      - nome: "Guilherme Galante"
+        contato: "guilherme.galante at unioeste.br"
+      - nome: "-"
+        contato: ""     
 #  - instituicao:
 #    nome: ""
 #    representantes:
