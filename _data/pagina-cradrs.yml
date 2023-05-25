@@ -29,6 +29,7 @@ membros-honorarios:
   - nome: "Prof. Tiaraju Asmuz Diverio (UFRGS), título outorgado em <b>19/10/2012</b>, em assembléia da CRAD/RS no WSCAD-SSC 2012, em Petrópolis, RJ."
   - nome: "Prof. Adenauer Corrêa Yamin (UCPEL/UFPEL), título outorgado em <b>12/04/2019</b>, em assembléia da CRAD/RS na ERAD 2019, em Três de Maio, RS."
   - nome: "Prof. Philippe Olivier Alexandre Navaux (UFRGS), título outorgado em <b>12/04/2019</b>, em assembléia da CRAD/RS na ERAD 2019, em Três de Maio, RS"
+  - nome: "Prof. César Augusto Fonticielha De Rose (PUCRS), título outorgado em <b>12/05/2023</b>, em assembléia da CRAD/RS na ERAD 2023, em Porto Alegre, RS"
 
 comissao-executiva:
   - nome: "Prof. André Rauber Dubois (UFPEL)"
@@ -227,13 +228,6 @@ comissao-deliberativa:
         contato: "ober at san.uri.br"
       - nome: "-"
         contato: ""     
-  - instituicao:
-    nome: "UNIOESTE (Cascavel), PR"
-    representantes:
-      - nome: "Guilherme Galante"
-        contato: "guilherme.galante at unioeste.br"
-      - nome: "-"
-        contato: ""     
 #  - instituicao:
 #    nome: ""
 #    representantes:
@@ -265,6 +259,8 @@ atas:
     link: "docs/atas/ataassembleia-da-crad-erad2021.pdf"
   - nome: "ERAD 2022 - 20/04/2022"
     link: "docs/atas/ataassembleia-da-crad-erad2022.pdf"
+  - nome: "ERAD 2023 - 12/05/2023"
+    link: "docs/atas/ataassembleia-da-crad-erad2023.pdf"
 #  - nome:
 #  - link:
 
