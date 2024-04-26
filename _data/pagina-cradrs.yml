@@ -91,10 +91,10 @@ comissao-deliberativa:
   - instituicao:
     nome: "SETREM, RS"
     representantes:
-      - nome: "Dalvan Griebler"
-        contato: "dalvangriebler at setrem.com.br"
       - nome: "Fauzi de Moraes Shubeita"
-        contato: "fauzi at setrem.com.br"  
+        contato: "fauzi at setrem.com.br"
+      - nome: "-"
+        contato: ""
   - instituicao:
     nome: "UCPEL"
     representantes:
