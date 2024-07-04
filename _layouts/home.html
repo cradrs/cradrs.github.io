@@ -70,17 +70,19 @@ layout: default
         <table class="table table-bordered">
           <thead>
             <tr>
-              <th scope="col">Instituição</th>
-              <th colspan="2" style="text-align: center;">Representantes</th>
+              <th style="text-align: center;">Instituição</th>
+              <th style="text-align: center;">Representantes</th>
             </tr>
           </thead>
           <tbody>
             {% for instituicao in site.data.pagina-cradrs.comissao-deliberativa %}
               <tr>
-                <td class="align-middle">{{ instituicao.nome }}</td>
-                {% for representante in instituicao.representantes %}
-                  <td class="align-middle"><strong>{{ representante.nome }}</strong><br>{{ representante.contato }}</td>
-                {% endfor %}
+                <td style="text-align: center;" class="align-middle">{{ instituicao.nome }}</td>
+                  <td style="text-align: center;" class="align-middle">
+                    {% for representante in instituicao.representantes %}
+                    <strong>{{ representante.nome }}</strong><br>{{ representante.contato }}<br>
+                    {% endfor %}
+                  </td>
               </tr>
             {% endfor %}
           </tbody>

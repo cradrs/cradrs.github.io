@@ -32,11 +32,11 @@ membros-honorarios:
   - nome: "Prof. César Augusto Fonticielha De Rose (PUCRS), título outorgado em <b>12/05/2023</b>, em assembléia da CRAD/RS na ERAD 2023, em Porto Alegre, RS"
 
 comissao-executiva:
-  - nome: "Prof. André Rauber Dubois (UFPEL)"
-  - nome: "Prof. Edson Luiz Padoin (UNIJUI)"
-  - nome: "Prof. João Vicente Ferreira Lima (UFSM)"
-  - nome: "Prof. Márcio Bastos Castro (UFSC)"
-  - nome: "<b>Prof. Tiago Coelho Ferreto (PUCRS), Coordenador</b>"
+  - nome: "<b>Prof. Rodrigo Righi (UNISINOS), Coordenador</b>"
+  - nome: "Prof. Dalvan Griebler (PUCRS)"
+  - nome: "Prof. Eduardo Camilo Inacio (UFSC)"
+  - nome: "Prof. Mauricio Aronne Pillon (UDESC)"
+  - nome: "Prof. Guilherme Galante (UNIOESTE)"
 
 comissao-deliberativa:
   - instituicao:
@@ -51,15 +51,11 @@ comissao-deliberativa:
     representantes:
       - nome: "Nelsi Warken"
         contato: "nelsi.warken at embrapa.br"
-      - nome: "-"
-        contato: ""
   - instituicao:
     nome: "Feevale, RS"
     representantes:
       - nome: "Edvar B. Araújo"
         contato: "edvar at feevale.br "
-      - nome: "-"
-        contato: ""
   - instituicao:
     nome: "FURG, RS"
     representantes:
@@ -79,7 +75,7 @@ comissao-deliberativa:
     representantes:
       - nome: "Luiz Gustavo Fernandes"
         contato: "luiz.fernandes at pucrs.br"
-      - nome: "Tiago C. Ferreto"
+      - nome: "Tiago Ferreto"
         contato: "tiago.ferreto at pucrs.br"  
   - instituicao:
     nome: "SENAC (Pelotas), RS "
@@ -93,10 +89,8 @@ comissao-deliberativa:
     representantes:
       - nome: "Fauzi de Moraes Shubeita"
         contato: "fauzi at setrem.com.br"
-      - nome: "-"
-        contato: ""
   - instituicao:
-    nome: "UCPEL"
+    nome: "UCPEL, RS"
     representantes:
       - nome: "Adenauer Corrêa Yamin"
         contato: "adenauer.yamin at ucpel.edu.br"
@@ -151,27 +145,23 @@ comissao-deliberativa:
         contato: "marcia at inf.ufsm.br"
       - nome: "João V. F. Lima"
         contato: "jvlima at inf.ufsm.br"  
-  - instituicao:
-    nome: "ULBRA, RS"
-    representantes:
-      - nome: "-"
-        contato: ""
-      - nome: "-"
-        contato: ""  
+  # - instituicao:
+  #   nome: "ULBRA, RS"
+  #   representantes:
+  #     - nome: "-"
+  #       contato: ""
+  #     - nome: "-"
+  #       contato: ""  
   - instituicao:
     nome: "UNIFRA, RS"
     representantes:
       - nome: "Ana Paula Canal"
         contato: "apc at unifra.br"
-      - nome: "-"
-        contato: ""  
   - instituicao:
     nome: "UNIJUI, RS"
     representantes:
       - nome: "Edson Luiz Padoin"
         contato: "padoin at unijui.edu.br"
-      - nome: "-"
-        contato: ""  
   - instituicao:
     nome: "UNIOESTE, PR"
     representantes:
@@ -198,8 +188,6 @@ comissao-deliberativa:
     representantes:
       - nome: "Daniela Saccol Peranconi"
         contato: "danielap at unisc.br"
-      - nome: "-"
-        contato: ""  
   - instituicao:
     nome: "UNISINOS, RS"
     representantes:
@@ -226,8 +214,6 @@ comissao-deliberativa:
     representantes:
       - nome: "Carlos Oberdan Rolim"
         contato: "ober at san.uri.br"
-      - nome: "-"
-        contato: ""     
 #  - instituicao:
 #    nome: ""
 #    representantes:
