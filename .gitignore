@@ -1,0 +1,57 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.jekyll-cache/
+.jekyll-metadata
+.jekyll-cache/
+.jekyll-metadata
+
+# Sass
+.sass-cache/
+
+# Backup files
+*.bak
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
+*.pid
+*.seed
+*.old
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Bundler
+/vendor/bundle/
+/vendor/cache/
+/vendor/gems/
+/vendor/ruby/
+
+# Gemfile.lock
+Gemfile.lock
+
+# dotenv environment variables file
+.env
+
+# GitHub Pages
+# See https://help.github.com/articles/ignoring-files/#create-a-global-gitignore-file
+/_site/
+/.sass-cache/
+/.jekyll-cache/
+/.jekyll-metadata
+
+# Node modules
+node_modules/
+
+# VS Code
+.vscode/
