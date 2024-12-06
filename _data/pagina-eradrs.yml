@@ -163,7 +163,7 @@ edicoes:
     
   - nome: "ERAD 2023"
     local: "Porto Alegre, RS"
-    link: "https://cradrs.github.io/eradrs2023"
+    link: "https://cradrs.github.io/eradrs2023/"
     anais: "https://sol.sbc.org.br/index.php/eradrs/issue/view/1101"
     capa: "img/capas_erad/capa2023.jpg"
 
@@ -172,7 +172,6 @@ edicoes:
     link: "https://cradrs.github.io/eradrs2024/"
     anais: "https://sol.sbc.org.br/index.php/eradrs"
     capa: "img/capas_erad/capa2024.jpg"
-
     
 # Atualizar informações da edição:
 
