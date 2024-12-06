@@ -168,10 +168,12 @@ edicoes:
     capa: "img/capas_erad/capa2023.jpg"
 
   - nome: "ERAD 2024"
-    anais: "https://sol.sbc.org.br/index.php/eradrs"
-    capa: "img/capas_erad/capa2024.jpg"
     local: "Florianópolis, SC"
     link: "https://cradrs.github.io/eradrs2024/"
+    anais: "https://sol.sbc.org.br/index.php/eradrs"
+    capa: "img/capas_erad/capa2024.jpg"
+
+
     
 # Atualizar informações da edição:
 
