@@ -67,9 +67,9 @@ comissao-deliberativa:
     nome: "IFSul, RS "
     representantes:
       - nome: "João Ladislau B. Lopes"
-        contato: "joaolopes at cavg.ifsul.edu.br"
-      - nome: "Rodrigo Santos de Souza"
-        contato: "rodrigosouza at pelotas.ifsul.edu.br"  
+        contato: "joaolopes at ifsul.edu.br"
+      - nome: "Renato Marques Dilli"
+        contato: "renatodilli at ifsul.edu.br"  
   - instituicao:
     nome: "PUCRS, RS "
     representantes:
@@ -92,10 +92,10 @@ comissao-deliberativa:
   - instituicao:
     nome: "UCPEL, RS"
     representantes:
-      - nome: "Adenauer Corrêa Yamin"
-        contato: "adenauer.yamin at ucpel.edu.br"
-      - nome: "Cláudio Machado Diniz"
-        contato: "claudio.diniz at ucpel.edu.br"  
+      - nome: "Giancarlo Lucca"
+        contato: "giancarlo.lucca at ucpel.edu.br"
+      - nome: "Lizandro de Souza Oliveira"
+        contato: "lizandro.oliveira at ucpel.edu.br"  
   - instituicao:
     nome: "UCS, RS"
     representantes:
@@ -153,10 +153,10 @@ comissao-deliberativa:
   #     - nome: "-"
   #       contato: ""  
   - instituicao:
-    nome: "UNIFRA, RS"
+    nome: "UFN, RS"
     representantes:
       - nome: "Ana Paula Canal"
-        contato: "apc at unifra.br"
+        contato: "apc at ufn.edu.br"
   - instituicao:
     nome: "UNIJUI, RS"
     representantes:
