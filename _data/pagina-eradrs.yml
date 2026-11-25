@@ -177,11 +177,13 @@ edicoes:
     local: "Foz do Iguaçu, PR"
     link: "https://cradrs.github.io/eradrs2025/"
     anais: "https://sol.sbc.org.br/index.php/eradrs/issue/view/1508"
+    capa: "img/capas_erad/capa2025.jpg"
 
   - nome: "ERAD 2026"
     local: "Bagé, RS"
     link: "https://cradrs.github.io/eradrs2026/"
     anais: "https://sol.sbc.org.br/index.php/eradrs/issue/view/1689"
+    capa: "img/capas_erad/capa2026.jpg"
 
 # Campos opcionais: "anais" (a edição só aparece na seção Anais se tiver)
 # e "capa" (sem capa, o cartão mostra apenas o nome da edição).
