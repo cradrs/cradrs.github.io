@@ -1,0 +1,55 @@
+#+TITLE: Site da CRAD/RS
+#+LANGUAGE: pt
+
+Site da Comissão Regional de Alto Desempenho da Região Sul (CRAD/RS),
+publicado em https://cradrs.github.io pelo GitHub Pages a partir do
+branch =gh-pages=. É um site [[https://jekyllrb.com][Jekyll]]: todo push no
+=gh-pages= é publicado automaticamente.
+
+* Onde editar
+
+Quase toda atualização é feita apenas nos arquivos de dados em =_data/=:
+
+| Página                       | Arquivo de dados          |
+|------------------------------+---------------------------|
+| Início (=/=)                 | [[file:_data/pagina-cradrs.yml][_data/pagina-cradrs.yml]]   |
+| ERAD/RS (=/erad-rs=)         | [[file:_data/pagina-eradrs.yml][_data/pagina-eradrs.yml]]   |
+| Histórico das comissões      | [[file:_data/historico-ce.yml][_data/historico-ce.yml]]    |
+
+Os documentos ficam em =docs/= (estatuto atual), =docs/revisoes_estatuto/=
+e =docs/atas/=; as capas dos anais, em =img/capas_erad/=.
+
+* Tarefas frequentes
+
+** Nova edição da ERAD
+1. Em =_data/pagina-eradrs.yml=, acrescentar a edição ao fim da lista
+   =edicoes= (=nome=, =local=, =link=; =anais= e =capa= quando existirem).
+2. Atualizar o bloco =evento= (data, descrição, programação e site).
+3. Colocar a capa em =img/capas_erad/capaAAAA.jpg= (105×148 pixels).
+
+Uma edição só aparece na seção /Anais/ se tiver o campo =anais=; sem
+=capa=, o cartão mostra apenas o nome da edição.
+
+** Nova ata de assembleia
+1. Salvar o PDF como =docs/atas/ataassembleia-da-crad-eradAAAA.pdf=.
+2. Acrescentar a entrada na lista =atas= de =_data/pagina-cradrs.yml=.
+
+** Nova Comissão Executiva
+1. Atualizar =comissao-executiva= em =_data/pagina-cradrs.yml=.
+2. Acrescentar a nominata em =_data/historico-ce.yml=.
+3. Atualizar =coordenador-comissao-executiva= em =_data/pagina-eradrs.yml=.
+
+* Testar localmente
+
+#+begin_src sh
+bundle install
+bundle exec jekyll serve
+#+end_src
+
+O site fica em http://localhost:4000. O Jekyll 4.2 fixado no =Gemfile=
+não funciona com Ruby 3.3 ou mais recente; nesse caso, com um Jekyll mais
+novo instalado no sistema (pacotes =jekyll=, =minima= e =jekyll-feed=):
+
+#+begin_src sh
+JEKYLL_NO_BUNDLER_REQUIRE=true jekyll serve --livereload
+#+end_src
