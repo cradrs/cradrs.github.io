@@ -56,20 +56,13 @@ layout: default
   <section class="edicoes mb-5" id="edicoes">
     <h4 class="text-center">Edições</h4>
     <div class="container">
+      {% assign edicoes = site.data.pagina-eradrs.edicoes %}
+      {% assign por_coluna = edicoes.size | plus: 3 | divided_by: 4 %}
       <div class="row text-center">
+        {% for coluna in (0..3) %}
+        {% assign inicio = coluna | times: por_coluna %}
         <div class="col-sm-12 col-md-3">
-          {% for edicao in site.data.pagina-eradrs.edicoes limit:6 %}
-            <p style="margin: 0">
-              <a href="{{ edicao.link }}" target="_blank" rel="noopener noreferrer">
-                <i class="fa-solid fa-arrow-up-right-from-square">
-                </i> {{ edicao.nome }}
-              </a>
-            </p>
-            <p class="lead" style="color: #595959;">{{ edicao.local }}</p>
-          {% endfor %}
-        </div>
-        <div class="col-sm-12 col-md-3">
-          {% for edicao in site.data.pagina-eradrs.edicoes limit:6 offset:continue %}
+          {% for edicao in edicoes limit: por_coluna offset: inicio %}
           <p style="margin: 0">
             <a href="{{ edicao.link }}" target="_blank" rel="noopener noreferrer">
               <i class="fa-solid fa-arrow-up-right-from-square">
@@ -79,28 +72,7 @@ layout: default
           <p class="lead" style="color: #595959;">{{ edicao.local }}</p>
           {% endfor %}
         </div>
-        <div class="col-sm-12 col-md-3">
-          {% for edicao in site.data.pagina-eradrs.edicoes limit:6 offset:continue %}
-          <p style="margin: 0">
-            <a href="{{ edicao.link }}" target="_blank" rel="noopener noreferrer">
-              <i class="fa-solid fa-arrow-up-right-from-square">
-              </i> {{ edicao.nome }}
-            </a>
-          </p>
-          <p class="lead" style="color: #595959;">{{ edicao.local }}</p>
-          {% endfor %}
-        </div>
-        <div class="col-sm-12 col-md-3">
-          {% for edicao in site.data.pagina-eradrs.edicoes limit:6 offset:continue %}
-          <p style="margin: 0">
-            <a href="{{ edicao.link }}" target="_blank" rel="noopener noreferrer">
-              <i class="fa-solid fa-arrow-up-right-from-square">
-              </i> {{ edicao.nome }}
-            </a>
-          </p>
-          <p class="lead" style="color: #595959;">{{ edicao.local }}</p>
-          {% endfor %}
-        </div>
+        {% endfor %}
       </div>
     </div>
   </section>
@@ -110,12 +82,16 @@ layout: default
     <div class="container">
       <div class="row text-center" style="justify-content: center;">
         {% for edicao in site.data.pagina-eradrs.edicoes %}
-          {% if forloop.last == true %}
+          {% unless edicao.anais %}
             {% continue %}
-          {% endif %}
+          {% endunless %}
           <div class="card m-3" style="width: 7rem;">
             <a href="{{ edicao.anais }}" target="_blank" rel="noopener noreferrer">
+              {% if edicao.capa %}
               <img src="{{ edicao.capa }}" class="card-img-top" alt="{{ edicao.local }}">
+              {% else %}
+              <div class="card-img-top d-flex align-items-center justify-content-center bg-secondary text-white font-weight-bold" style="height: 9rem;">{{ edicao.nome }}</div>
+              {% endif %}
             </a>
             <div class="card-body">
               <p class="card-text">{{ edicao.local | split: ", " | slice: 0}}</p>
